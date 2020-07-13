@@ -1,0 +1,158 @@
+
+# Creado por https://www.gitignore.io/api/c,visualstudiocode
+# Editar en https://www.gitignore.io/?templates=c,visualstudiocode
+
+### C ###
+# Prerrequisitos
+*.re
+
+# Archivos de objetos
+* .o
+* .ko
+* .obj
+*.duende
+
+# Salida del enlazador
+* .ilk
+*.mapa
+*.Exp
+
+# Encabezados precompilados
+* .gch
+* .pch
+
+# Bibliotecas
+* .lib
+*.una
+*.la
+* .lo
+
+# Objetos compartidos (inc. DLL de Windows)
+* .dll
+*.entonces
+*.entonces.*
+* .dylib
+
+# Ejecutables
+*.exe
+*.fuera
+* .app
+* .i * 86
+* .x86_64
+*.maleficio
+
+# Depurar archivos
+* .dSYM /
+* .su
+* .idb
+* .pdb
+
+# Resultados de compilación del módulo Kernel
+*.modificación*
+* .cmd
+.tmp_versions /
+módulos.orden
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / task.json
+! .vscode / launch.json
+! .vscode / extensiones.json
+
+### VisualStudioCode Patch ###
+# Ignorar todo el historial local de archivos
+.historia
+
+# Fin de https://www.gitignore.io/api/c,visualstudiocode
+
+# Created by https://www.gitignore.io/api/executable
+# Edit at https://www.gitignore.io/?templates=executable
+
+### Executable ###
+*.app
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+
+# End of https://www.gitignore.io/api/executable
+
+# Creado por https://www.gitignore.io/api/c++
+# Editar en https://www.gitignore.io/?templates=c++
+
+### C ++ ###
+# Prerrequisitos
+*.re
+
+# Archivos de objetos compilados
+* .slo
+* .lo
+* .o
+* .obj
+
+# Encabezados precompilados
+* .gch
+* .pch
+
+# Bibliotecas dinámicas compiladas
+*.entonces
+* .dylib
+* .dll
+
+# Fortran archivos de módulo
+*.modificación
+* .smod
+
+# Bibliotecas estáticas compiladas
+* .lai
+*.la
+*.una
+* .lib
+
+# Ejecutables
+*.exe
+*.fuera
+* .app
+
+# Fin de https://www.gitignore.io/api/c++
+
+
+# Created by https://www.gitignore.io/api/windows
+# Edit at https://www.gitignore.io/?templates=windows
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/windows
